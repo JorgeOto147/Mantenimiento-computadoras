@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>TecnoJR-Herramientas</title>
+		<link rel="stylesheet" href="/Tienda-Herramientas/Tienda-herramientas.css" />
+		<link rel="shortcut icon" href="/imagenes/logo.png" />
+	</head>
+	<body>
+		<header>
+			<h1>Herramientas   </h1>
+			<div class="container">
+				<a href="/Principal/Principal.html"><p class="logo"></p></a>
+			</nav>
+			</div>
+
+			<div class="container-icon-repuestos">
+				<a href="/Tienda-repuestos/Tienda-repuestos.html"><div class="container-piezas-icon">
+					<svg class="icon-repuestos" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25"></path>
+					</svg></a>
+				</div>
+			</div>
+
+
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>
+		<div class="container-items">
+			<div class="item">
+				<figure>
+					<img
+						src="/imagenes//TIENDA-HERRAMIENTAS/guantes-antiestaticos.jpeg"
+						alt="GUANTES ANTIESTATICOS PARA REPARACIONES ELECTRONICAS"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Guantes Antiestáticosㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h2>
+					<p class="price">$2</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="/imagenes/TIENDA-HERRAMIENTAS/ponchadora.webp"
+						alt="PONCHADORA RJ45"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Ponchadora RJ45ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h2>
+					<p class="price">$11.50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="/imagenes/TIENDA-HERRAMIENTAS/pasta-termica.jpeg"
+						alt="PASTA TERMICA GRIS DISIPADORA DE CALOR"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pasta Termica Gris Disipadora De Calor</h2>
+					<p class="price">$2.50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/destornilladorestrella.webp"
+					alt="Destornillador Estrella"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Destornillador Estrella Deliㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h2>
+					<p class="price">$5</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+						src="/imagenes/TIENDA-HERRAMIENTAS/Aire-Comprimido-Abro-Ad237-400ml.png"
+						alt="Aire Comprimido"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Aire Comprimido ABRO 400MLㅤ</h2>
+					<p class="price">$9</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Pasta-soldadura.jpeg"
+					alt="PASTA DE SOLDADURA"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Pasta De Soldaduraㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h2>
+					<p class="price">$4.50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Paño-antiestatico.jpeg"
+					alt="Paños Antiestáticos"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Paños Antiestáticos De Limpieza</h2>
+					<p class="price">$3.45</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Brochas-antiestaticas.webp"
+					alt="Brocha Antiestatica 17cmx6cm"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Brocha Antiestatica 17cmx6cm</h2>
+					<p class="price">$2.90</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Brochas-antiestaticas.webp"
+					alt="Brocha Antiestatica 14cmx4cm"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Brocha Antiestatica 14cmx4cm</h2>
+					<p class="price">$2.10</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Brochas-antiestaticas.webp"
+					alt="Brocha Antiestatica 14.3cmx2.5cm"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Brocha Antiestatica 14.3cmx2.5cm</h2>
+					<p class="price">$2.50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/cautin.jpg"
+					alt="Cautin De Madera 60W 110V"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Cautin De Madera 60W 110Vㅤㅤ</h2>
+					<p class="price">$3</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/estacion-de-calor.jpg"
+					alt="Estacion De Calor Baku BK-909"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Estacion De Calor Baku BK-909ㅤ</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Destornilladores.webp"
+					alt="Kit Destornilladores tipo vaso 30 en 1"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Kit Destornilladores 30 En 1</h2>
+					<p class="price">$5</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Alicate.jpeg"
+					alt="Alicate Cortador Baku"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Alicate Cortador Baku BK-109</h2>
+					<p class="price">$4</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Limpia-cautin.jpeg"
+					alt="Limpiador De Punta De Cautín"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Limpiador de Punta de Cautin</h2>
+					<p class="price">$7</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Paño-antiestaticooo.jpeg"
+					alt="Paño Antiestatico de Micro Fibra"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Paño Antiestatico de Micro Fibraㅤ</h2>
+					<p class="price">$2</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/Estaño.jpeg"
+					alt="Estaño 50 Gramos 0.4MM"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Estaño Para Suelda 50 Gramos 0.4MM</h2>
+					<p class="price">$5</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+			<div class="item">
+				<figure>
+					<img
+					src="/imagenes/TIENDA-HERRAMIENTAS/sopladora.jpg"
+					alt="Sopladora Y Aspiradora"
+					/>
+				</figure>
+				<div class="info-product">
+					<h2>Sopladora y Aspiradora Para Computadora</h2>
+					<p class="price">$24</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+
+		
+		<a href="https://w.app/TecnoJr" class="btn-wsp" target="_blank">
+        <i class="icon-wpp">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="whatsapp" class="svg-inline--fa fa-whatsapp fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+        </i>
+
+	</body>
+
+
+</html>
